@@ -69,8 +69,8 @@ const App = () => {
   return (
     <>
       <div className='m-5'>
-        <button className='btn btn-danger px-5 mx-5' onClick={() => ascendingOrder()}>Assending</button>
-        <button className='btn btn-danger px-5 mx-5' onClick={() => descendingOrder()}>Dessending</button>
+        <button className='btn btn-danger px-5 mx-5' onClick={() => ascendingOrder()}>Ascending</button>
+        <button className='btn btn-danger px-5 mx-5' onClick={() => descendingOrder()}>Descending</button>
       </div>
       <div className='container'>
         <h2 className='text-center'>{sorting}</h2>
